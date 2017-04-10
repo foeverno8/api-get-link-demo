@@ -8,7 +8,7 @@
 
 $key = ''; // Enter your key on VideoAPI.io
 $link = 'https://drive.google.com/file/d/0B1xQLLJtrzJoaWUxUHdqY01mRGM/view';
-$api = 'https://videoapi.io/api/getlink?key='.$key.'&link='.$link.'&cache=false';
+$api = 'https://videoapi.io/api/getlink?key='.$key.'&link='.$link;
 $sources = curl($api);
 // function curl
 function curl($url)
